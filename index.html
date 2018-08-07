@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Magic Card Finder</h1>
+    <section id='searchOptions'>
+        <label for='colorCheck'>Color</label>
+        <input type=checkbox id='colorCheck'>
+        <select id='color'>
+            <option>Colorless</option>
+            <option>Red</option>
+            <option>Black</option>
+            <option>White</option>
+            <option>Green</option>
+            <option>Blue</option>
+        </select>
+        <label for='setCheck'>Set</label>
+        <input type=checkbox id='setCheck'>
+        <select id='sets'></select>
+    </section>
+
+    <button>Get Cards</button>
+
+    <section class='cards'>
+        <div id='cardName'>Card Name</div>
+        <div id='cardColor'>Card Color</div>
+        <div id='manaCost'>Mana Cost</div>
+    </section>
+    
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
